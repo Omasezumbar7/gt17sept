@@ -15,6 +15,7 @@ public class testBase {
 	    driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
+		driver.manage().deleteAllCookies();
 		driver.get("https://www.saucedemo.com");
 		
 		
